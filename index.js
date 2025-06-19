@@ -7,5 +7,5 @@ app.use(unblocker({ prefix: "/proxy/", requestMiddleware: [] }));
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-  console.log(`✅ Proxy running at http://localhost:${port}/proxy/`);
+  console.log(`✅ Proxy running on http://localhost:${port}/proxy/`);
 });
